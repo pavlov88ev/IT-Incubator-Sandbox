@@ -2,10 +2,12 @@
   "name": "IT-Incubator-Sandbox",
   "version": "1.0.0",
   "dependencies": {
+    "nodemon": "^2.0.22",
     "yarn": "^1.22.19"
   },
   "scripts": {
     "start": "node src/index.js",
+    "start:watch": "nodemon src/index.js",
     "start:dev": "node --inspect src/index.js"
   }
 }
